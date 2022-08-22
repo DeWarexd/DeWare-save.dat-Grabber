@@ -5,6 +5,7 @@
 A simple Save.dat stealer written in Python. 
 
 # Features
-* Get IP Adress
-* Get PC Name
-* Get Save.dat
+[x] Get IP Adress
+[x] Get PC Name
+[x] Get Save.dat
+[ ] Get Discord Token
