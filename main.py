@@ -4,6 +4,8 @@ from tqdm import tqdm
 from time import sleep
 import socket
 
+#/* Code by Denolaks *\
+
 os.system('cls')
 
 url_hook = "webhook goes here"
