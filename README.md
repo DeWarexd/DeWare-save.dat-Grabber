@@ -21,8 +21,7 @@ pip install tqdm
 ## 🎶 How to convert it into exe
 
 ```bash
-pip install discord_webhook 
-pip install tqdm 
+pip install pyinstaller
 ```
 
 - go to cmd and execute following command:
