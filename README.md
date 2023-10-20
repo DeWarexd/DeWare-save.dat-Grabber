@@ -32,4 +32,4 @@ pyinstaller main.py --onefile --icon=NONE
 
 ## ⚠️ Note
 
-its a very old project so if it doesnt work idk wh
+its a very old project so if it doesnt work idk why
