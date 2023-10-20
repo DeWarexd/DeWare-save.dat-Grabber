@@ -1,6 +1,6 @@
 # ⚠️ DeWare save.dat grabber
 
-a simple python code app that grabs the ip & save.dat file and sends it to your discord webhook. .
+a simple python code that grabs the ip & save.dat file and sends it to your discord webhook. .
 
 **[Discord](https://discord.gg/FQkRFbzY6E)**
 
