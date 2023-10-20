@@ -1,14 +1,35 @@
-# DeHook
+# ⚠️ DeWare save.dat grabber
 
-[Discord](https://discord.com/invite/HXCxmc4G4J)    |    [YouTube](https://www.youtube.com/channel/UC8iAdwlggk1CkNbGiIEPNVQ)
+a simple python code app that grabs the ip & save.dat file and sends it to your discord webhook. .
 
-A simple Save.dat stealer written in Python. 
+**[Discord](https://discord.gg/FQkRFbzY6E)**
 
-# Features
-- [x] Get IP Adress
-- [x] Get PC Name
-- [x] Get Save.dat
-- [ ] Get Discord Token
+## 🔧 Installation
 
-## Note
-This stealer written in Python. That means everybody can read the source so it's pointless. Maybe you can trap ur friends that knows nothing about coding xd.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install needed packages.
+
+```bash
+pip install discord_webhook 
+pip install tqdm 
+```
+
+## 💡 Features
+- **IP grabber**
+- **Save.dat grabber**
+- **Username grabber**
+
+## 🎶 How to convert it into exe
+
+```bash
+pip install discord_webhook 
+pip install tqdm 
+```
+
+- go to cmd and execute following command:
+```bash
+pyinstaller main.py --onefile --icon=NONE
+```
+
+## ⚠️ Note
+
+its a very old project so if it doesnt work idk wh
