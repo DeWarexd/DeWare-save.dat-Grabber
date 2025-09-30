@@ -1,34 +1,48 @@
-# ⚠️ DeWare save.dat grabber
+# ⚠️ DeWare Growtopia save.dat Grabber
 
-a simple python code that grabs the ip & save.dat file and sends it to your discord webhook. .
+A simple Python script that grabs the IP address, `save.dat` file, and username, then sends them to your Discord webhook.
 
-**[Discord](https://discord.gg/FQkRFbzY6E)**
+---
 
 ## 🔧 Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install needed packages.
+Install required packages using pip:
 
 ```bash
-pip install discord_webhook 
-pip install tqdm 
+pip install discord_webhook
+pip install tqdm
 ```
+
+---
 
 ## 💡 Features
-- **IP grabber**
-- **Save.dat grabber**
-- **Username grabber**
 
-## 🎶 How to convert it into exe
+- **🤡 Fake UI**  
+  Editable Fake UI to make script more believeable
+- **🌐 IP Grabber**  
+  Captures the target's IP address
+- **💾 Save.dat Grabber**  
+  Extracts the `save.dat` file
+- **👤 Username Grabber**  
+  Retrieves the system username
 
-```bash
-pip install pyinstaller
-```
+---
 
-- go to cmd and execute following command:
-```bash
-pyinstaller main.py --onefile --icon=NONE
-```
+## 🎶 How to Convert to EXE
 
-## ⚠️ Note
+1. Install PyInstaller:
+   ```bash
+   pip install pyinstaller
+   ```
 
-its a very old project so if it doesnt work idk why
+2. Build the executable:
+   ```bash
+   pyinstaller main.py --onefile --icon=NONE
+   ```
+
+---
+
+## ⚠️ Important Note
+
+> This is a legacy project from an earlier time.  
+> If it doesn't work, I can't provide support - use at your own risk.
